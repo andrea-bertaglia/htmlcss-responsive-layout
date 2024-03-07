@@ -94,6 +94,10 @@ a {
     padding: 20px;
 }
 
+.grow-1  {
+    flex-grow: 1;
+}
+
 /* HEADER */
 header {
     background-color: #0084fd;
@@ -159,10 +163,6 @@ header {
     background-color: #b6ddff;
 }
 
-.large-card-hero  {
-    flex-grow: 1;
-}
-
 @media screen and (min-width: 768px) {
     #hero .columns .card {
         width: calc(100% / 3 - 10px);
@@ -179,18 +179,22 @@ header {
 }
 
 @media screen and (min-width: 992px) {
-
-
     #strategic .columns .card {
         width: calc(100% / 2 - 10px);
     }
 }
 
+/* ? Testimonials */
+#testimonials {
+    text-align: center;
+}
+
+#testimonials .columns .card {
+    width: 100%;
+    background-color: #9792e4;
+}
+
 /* FOOTER */
-
-
-
-
 
 
 /* * breakepoints:
