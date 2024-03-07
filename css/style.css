@@ -58,6 +58,7 @@ a {
     
     /* debug */
     height: 50px;
+    border: 2px dashed blue;
 }
 
 /* Layout */
@@ -205,6 +206,19 @@ header {
         width: calc(100% / 2 - 20px);
     }
 }
+
+/* ? About Us */
+#about-us .card {
+    /* debug */
+    min-height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    #about-us .columns .card {
+        width: calc(100% / 2 - 20px);
+    }
+}
+
 
 /* FOOTER */
 
