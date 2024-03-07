@@ -40,6 +40,25 @@ a {
 }
   
 /* COMMON */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    /* debug */
+    border: 2px solid orange;
+}
+
+.columns {
+    gap: 10px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 1em;
+    
+    /* debug */
+    height: 50px;
+}
 
 /* Layout */
 .flex {
@@ -62,13 +81,17 @@ a {
     align-items: center;
 }
 
+.bg-violet {
+    background-color: #9792e4;
+}
+
 /* Utilities */
 .gap-2 {
     gap: 2em;
 }
 
-.p-b-20 {
-    padding-bottom: 20px;
+.p-20 {
+    padding: 20px;
 }
 
 /* HEADER */
@@ -81,14 +104,6 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1140px;
-    /* debug */
-    border: 2px solid orange;
 }
 
 .header-logo {
@@ -132,36 +147,41 @@ header {
 }
 
 /* MAIN */
-.hero-section {
+/* ? Hero */
+#hero {
     padding-top: 90px;
 
     /* debug */
     border: 2px dashed red;
 }
 
-.columns {
-    gap: 10px;
-}
-
-.card {
-    width: 100%;
-    border-radius: 1em;
+#hero .card {
     background-color: #b6ddff;
-    
-    /* debug */
-    height: 50px;
 }
 
-.large-card  {
+.large-card-hero  {
     flex-grow: 1;
 }
 
 @media screen and (min-width: 768px) {
-    .columns .card {
+    #hero .columns .card {
         width: calc(100% / 3 - 10px);
     }
 
-    .columns .card:first-child {
+    #hero .columns .card:first-child {
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+/* ? Strategic Planning */
+#strategic .card:last-child {
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+
+
+    #strategic .columns .card {
         width: calc(100% / 2 - 10px);
     }
 }
