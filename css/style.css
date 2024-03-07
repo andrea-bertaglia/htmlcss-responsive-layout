@@ -85,6 +85,10 @@ a {
     background-color: #9792e4;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Utilities */
 .gap-2 {
     gap: 2em;
@@ -185,13 +189,21 @@ header {
 }
 
 /* ? Testimonials */
-#testimonials {
-    text-align: center;
-}
-
 #testimonials .columns .card {
     width: 100%;
     background-color: #9792e4;
+}
+
+/* ? Benefits */
+#benefits .columns .card {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+    #benefits .columns .card {
+        width: calc(100% / 2 - 20px);
+    }
 }
 
 /* FOOTER */
