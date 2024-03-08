@@ -1,0 +1,72 @@
+/* COMMON */
+/* Layout */
+@media screen and (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* HEADER */
+@media screen and (min-width: 992px) {
+    .hamburger-btn {
+        display: none;
+    }
+
+    .header-nav ul {
+        display: flex;
+    }
+}
+
+/* MAIN */
+@media screen and (min-width: 768px) {
+    /* ? Hero */
+    #hero .card {
+        width: calc(100% / 3 - 2em / 3);
+    }
+
+    #hero .card:first-child {
+        width: calc(2 * 100% / 3 - 1em / 3);
+    }
+
+    /* ? Benefits */
+    #benefits .card {
+        width: calc(100% / 2 - 1em / 2);
+    }
+
+    /* ? About Us */
+    #about-us .card:first-child {
+        width: 70%
+    }
+
+    #about-us .card:last-child {
+        width: 28%
+    }
+
+    /* ? CTA Section */
+    #cta .container {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* ? Strategic Planning */
+    #strategic .card {
+        width: calc(100% / 2 - 10px);
+    }
+
+    /* ? Benefits */
+    #benefits .card {
+        width: calc(100% / 3 - 2em / 3);
+    }
+}
+
+/* FOOTER */
+@media screen and (min-width: 768px) {
+    #footer .container {
+        width: 50%;
+    }
+}
+
+/* * breakepoints:
+* - tablet: 768px
+* - desktop: 992px */
