@@ -1,13 +1,9 @@
-/* COMMON */
-/* Layout */
-@media screen and (min-width: 992px) {
-    .container {
-        width: 80%;
-    }
-}
+/* ! *****************************
+/* !        Tablet - 768px
+/* ! ****************************/
 
-/* HEADER */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
+    /* HEADER */
     .hamburger-btn {
         display: none;
     }
@@ -15,10 +11,8 @@
     .header-nav ul {
         display: flex;
     }
-}
 
-/* MAIN */
-@media screen and (min-width: 768px) {
+    /* MAIN */
     /* ? Hero */
     #hero .card {
         width: calc(100% / 3 - 2em / 3);
@@ -31,7 +25,7 @@
     /* ? Benefits */
     #benefits .card {
         width: calc(100% / 2 - 1em / 2);
-    }
+    }    
 
     /* ? About Us */
     #about-us .card:first-child {
@@ -46,11 +40,20 @@
     #cta .container {
         width: 50%;
     }
+
+    /* FOOTER */
+    #footer .container {
+        width: 50%;
+    }
 }
+
+/* ! *****************************
+/* !        Desktop - 992px
+/* ! ****************************/
 
 @media screen and (min-width: 992px) {
     /* ? Strategic Planning */
-    #strategic .card {
+    #planning .card {
         width: calc(100% / 2 - 10px);
     }
 
@@ -59,14 +62,3 @@
         width: calc(100% / 3 - 2em / 3);
     }
 }
-
-/* FOOTER */
-@media screen and (min-width: 768px) {
-    #footer .container {
-        width: 50%;
-    }
-}
-
-/* * breakepoints:
-* - tablet: 768px
-* - desktop: 992px */

@@ -13,6 +13,7 @@ img {
 
 a {
     text-decoration: inherit;
+    color: inherit;
 }
 
 /* FONT */
@@ -110,13 +111,7 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-}
-
-.header-logo {
-    /* debug */
-    background-color: blueviolet;
-    width: 100px;
-    height: 40px;
+    color: #FFF;
 }
 
 .hamburger-btn {
@@ -134,22 +129,15 @@ header {
     display: none;
 }
 
-.btn-white {
-    background-color: #FFFFFF;
+.btn {
+    padding: .5em 1em;
+    border-radius: 1.3em;
 }
 
-@media screen and (min-width: 992px) {
-    .container {
-        width: 80%;
-    }
+.btn-white {
+    background-color: #FFFFFF;
+    color: #000000;
 
-    .hamburger-btn {
-        display: none;
-    }
-
-    .header-nav ul {
-        display: flex;
-    }
 }
 
 /* MAIN */
@@ -165,25 +153,9 @@ header {
     background-color: #b6ddff;
 }
 
-@media screen and (min-width: 768px) {
-    #hero .card {
-        width: calc(100% / 3 - 2em / 3);
-    }
-
-    #hero .card:first-child {
-        width: calc(2 * 100% / 3 - 1em / 3);
-    }
-}
-
 /* ? Strategic Planning */
-#strategic .card:last-child {
+#planning .card:last-child {
     background-color: #FFFFFF;
-}
-
-@media screen and (min-width: 992px) {
-    #strategic .card {
-        width: calc(100% / 2 - 10px);
-    }
 }
 
 /* ? Testimonials */
@@ -198,49 +170,16 @@ header {
     background-color: #FFFFFF;
 }
 
-@media screen and (min-width: 768px) {
-    #benefits .card {
-        width: calc(100% / 2 - 1em / 2);
-    }
-}
-
-@media screen and (min-width: 992px) {
-    #benefits .card {
-        width: calc(100% / 3 - 2em / 3);
-    }
-}
-
 /* ? About Us */
 #about-us .card {
     /* debug */
     min-height: 200px;
 }
 
-@media screen and (min-width: 768px) {
-    #about-us .card:first-child {
-        width: 70%
-    }
-
-    #about-us .card:last-child {
-        width: 28%
-    }
-}
-
 /* ? CTA Section */
-@media screen and (min-width: 768px) {
-    #cta .container {
-        width: 50%;
-    }
-}
 
 /* FOOTER */
 footer {
     background-color: #000000;
     color: #FFFFFF;
-}
-
-@media screen and (min-width: 768px) {
-    #footer .container {
-        width: 50%;
-    }
 }
