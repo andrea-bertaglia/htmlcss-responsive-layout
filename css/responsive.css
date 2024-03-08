@@ -22,6 +22,14 @@
         width: calc(2 * 100% / 3 - 1em / 3);
     }
 
+    #hero .card img {
+        width: 75%;
+    }
+
+    #hero .card:nth-child(2) {
+        justify-content: flex-start;
+    } 
+
     /* ? Benefits */
     #benefits .card {
         width: calc(100% / 2 - 1em / 2);
@@ -52,6 +60,22 @@
 /* ! ****************************/
 
 @media screen and (min-width: 992px) {
+    /* MAIN */
+    /* ? Hero */
+    #hero .card:first-child {
+   
+    }
+
+    #hero .inner-col {
+        width: 40%;
+        /* debug */
+        background-color: aquamarine;
+    }
+   
+    #hero .card img {
+        width: 40%;
+    }
+   
     /* ? Strategic Planning */
     #planning .card {
         width: calc(100% / 2 - 10px);

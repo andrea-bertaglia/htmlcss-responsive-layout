@@ -57,10 +57,12 @@ a {
 .card {
     width: 100%;
     border-radius: 1em;
-    
-    /* debug */
-    height: 50px;
-    border: 2px dashed blue;
+}
+
+.btn {
+    border-radius: 1.3em;
+    color: #FFF;
+    text-align: center;
 }
 
 /* Layout */
@@ -129,15 +131,10 @@ header {
     display: none;
 }
 
-.btn {
-    padding: .5em 1em;
-    border-radius: 1.3em;
-}
-
 .btn-white {
+    padding: .5em 1em;
     background-color: #FFFFFF;
     color: #000000;
-
 }
 
 /* MAIN */
@@ -150,7 +147,41 @@ header {
 }
 
 #hero .card {
+    flex-direction: column;
     background-color: #b6ddff;
+    padding: 2em 2em 0 2em;
+}
+
+#hero .card h3 {
+    font-size: 1.5rem;
+    padding-bottom: .3em;
+    color: #0084fd;
+}
+
+#hero .card p {
+    padding-top: 1em;
+    line-height: 2rem;
+    color: #5a6e7f;
+}
+
+.btn-blue {
+    width: 15em;
+    padding: .7em;
+    background-color: #0084fd;
+    letter-spacing: .2em;
+    margin: 2em 0;
+}
+
+#hero .card img {
+    display: inline-block;
+}
+
+.large-icons {
+    color: #0084fd;
+    font-size: 5rem;
+    padding-bottom: .3em;
+    text-align: center;
+    display: block;
 }
 
 /* ? Strategic Planning */
