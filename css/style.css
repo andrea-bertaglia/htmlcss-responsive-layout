@@ -234,6 +234,43 @@ header {
 #testimonials .card {
     width: 100%;
     background-color: #9792e4;
+    flex-direction: column;
+    border-radius: 3.5em;
+    gap: 2em;
+    color: #FFF;
+}
+
+#testimonials img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#testimonials h4 {
+    font-weight: lighter;
+    padding-bottom: 2em;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    color: #9792e4;
+    padding-bottom: 1em;
+}
+
+#testimonials p {
+    font-size: 1.3rem;
+    line-height: 1.8em;
+    padding-bottom: 2em;
+}
+
+#testimonials .card i {
+    font-size: 1.5rem;
+}
+
+#testimonials span {
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
 }
 
 /* ? Benefits */
