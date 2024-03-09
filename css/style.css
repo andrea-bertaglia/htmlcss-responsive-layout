@@ -55,7 +55,7 @@ a {
 }
 
 .card {
-    width: 100%;
+    padding: 2em;
     border-radius: 1em;
 }
 
@@ -149,7 +149,10 @@ header {
 #hero .card {
     flex-direction: column;
     background-color: #b6ddff;
-    padding: 2em 2em 0 2em;
+}
+
+#hero .card:first-child {
+    padding-bottom: 0;
 }
 
 #hero .card h3 {

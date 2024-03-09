@@ -63,17 +63,18 @@
     /* MAIN */
     /* ? Hero */
     #hero .card:first-child {
-   
+        flex-direction: row;
     }
 
-    #hero .inner-col {
-        width: 40%;
-        /* debug */
-        background-color: aquamarine;
+    #hero .inner-col:first-child {
+        align-items: flex-start;
+        width: 58%;
     }
    
-    #hero .card img {
+    #hero .inner-col:last-child {
         width: 40%;
+        object-fit: contain;
+        object-position: bottom;  
     }
    
     /* ? Strategic Planning */
