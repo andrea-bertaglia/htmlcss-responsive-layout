@@ -188,8 +188,46 @@ header {
 }
 
 /* ? Strategic Planning */
+#planning .columns {
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+#planning h2 {
+    color: #FFF;
+    font-size: 2rem;
+    padding: 1.5em 0;
+}
+
+#planning p {
+    line-height: 2rem;
+    color: #FFF;
+    padding-bottom: 2rem;
+}
+
 #planning .card:last-child {
+    text-align: center;
+    border-radius: 2.5em;
     background-color: #FFFFFF;
+    padding-bottom: 3em;
+}
+
+#planning .card:last-child h2 {
+    color: #000000;
+    font-size: 1.8rem;
+    padding-bottom: .5em;
+}
+
+#planning .card:last-child p {
+    color: #000000;
+    padding-bottom: 3em;
+}
+
+#planning .small-icon {
+    background-color: #9792e4;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 20px;
 }
 
 /* ? Testimonials */

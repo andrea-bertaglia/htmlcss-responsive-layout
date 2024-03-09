@@ -78,8 +78,28 @@
     }
    
     /* ? Strategic Planning */
+    #planning .columns {
+        padding-top: 4em;
+        flex-direction: row;
+    }
+
     #planning .card {
         width: calc(100% / 2 - 10px);
+        padding-top: 1em;
+    }
+
+    #planning .card:first-child,
+    #planning .card p {
+        padding-bottom: 0;
+    }
+
+    #planning .columns:last-child {
+       display: flex;
+       align-items: end;
+    }
+
+    #planning .card:last-child img {
+        width: 70%;
     }
 
     /* ? Benefits */
