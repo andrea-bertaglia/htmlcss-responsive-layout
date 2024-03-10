@@ -403,7 +403,7 @@ header {
 
 #cta h3 {
     color: #FFF;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #cta .cta-slogan {
@@ -436,6 +436,19 @@ header {
 
 /* FOOTER */
 footer {
-    background-color: #000000;
+    background-color: #333333;
     color: #FFFFFF;
+}
+
+footer .container {
+    width: 100%;
+}
+
+footer p {
+    padding: 1em 0;
+}
+
+footer a {
+    color: #9792e4;
+    text-decoration: underline;
 }

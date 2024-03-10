@@ -72,12 +72,12 @@
 
     /* ? CTA Section */
     #cta .container {
-        width: 70%;
+        width: 80%;
     }
 
     /* FOOTER */
     #footer .container {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -152,7 +152,11 @@
 
     /* ? CTA Section */
     #cta .container {
-        width: 50%;
+        width: 70%;
     }
 
+    /* FOOTER */
+    #footer .container {
+        width: 50%;
+    }
 }
