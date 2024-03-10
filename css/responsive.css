@@ -52,11 +52,21 @@
 
     /* ? About Us */
     #about-us .card:first-child {
-        width: 70%
+        width: 55%
     }
 
     #about-us .card:last-child {
-        width: 28%
+        width: 40%
+    }
+
+    #about-us .quote-container {
+        width: 100%;
+    }
+
+    #about-us .about-us-caption {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: .2em;
     }
 
     /* ? CTA Section */
