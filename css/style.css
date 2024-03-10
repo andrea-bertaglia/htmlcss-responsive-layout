@@ -46,8 +46,6 @@ a {
     width: 90%;
     margin: 0 auto;
     max-width: 1140px;
-    /* debug */
-    border: 2px solid orange;
 }
 
 .columns {
@@ -330,6 +328,7 @@ header {
 
 #about-us .card {
     text-align: left;
+    padding: 0;
 }
 
 #about-us h2 {
@@ -370,7 +369,7 @@ header {
 }
 
 #about-us .about-us-caption {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     padding-top: .5em;
     color: #9792e4;
@@ -389,6 +388,51 @@ header {
 }
 
 /* ? CTA Section */
+#cta .container {
+    flex-direction: column;
+    gap: 2em;
+}
+
+#cta h4 {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
+}
+
+
+#cta h3 {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+#cta .cta-slogan {
+    font-size: 4rem;
+    color: #fdc15f;
+}
+
+#cta p {
+    color: #FFF;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+#cta .btn-white {
+    width: 15em;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    padding: 1em;
+    color: #9792e4;
+    border-radius: 2em;
+}
+
+#cta .cta-copyright {
+    color: #FFF;
+}
+
+#cta .cta-copyright a {
+    text-decoration: underline;
+}
 
 /* FOOTER */
 footer {

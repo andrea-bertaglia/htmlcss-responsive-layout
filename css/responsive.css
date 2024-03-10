@@ -52,26 +52,27 @@
 
     /* ? About Us */
     #about-us .card:first-child {
-        width: 55%
+        width: 62%
     }
 
     #about-us .card:last-child {
-        width: 40%
+        width: 33%
     }
 
     #about-us .quote-container {
         width: 100%;
     }
 
+
     #about-us .about-us-caption {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2rem;
         padding-top: .2em;
     }
 
     /* ? CTA Section */
     #cta .container {
-        width: 50%;
+        width: 70%;
     }
 
     /* FOOTER */
@@ -131,4 +132,27 @@
     #benefits .card {
         width: calc(100% / 3 - 2em / 3);
     }
+
+    /* ? About Us */
+    #about-us .container {
+        padding: 2em;
+    }
+
+    #about-us .card:first-child {
+        width: 65%
+    }
+
+    #about-us .card:last-child {
+        width: 30%
+    }
+
+    #about-us .quote-container {
+        width: 80%;
+    }
+
+    /* ? CTA Section */
+    #cta .container {
+        width: 50%;
+    }
+
 }
