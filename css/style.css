@@ -155,9 +155,6 @@ header {
 /* ? Hero */
 #hero {
     padding-top: 90px;
-
-    /* debug */
-    border: 2px dashed red;
 }
 
 #hero .card {
